@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BitReaderWriter.Interfaces
 {
-    interface IBitReader : IDisposable
+    public interface IBitReader : IDisposable
     {
         uint ReadNBits(int n);
 
