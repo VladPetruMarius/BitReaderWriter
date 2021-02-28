@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitReaderWriter", "BitReaderWriter\BitReaderWriter.csproj", "{979668CF-3F73-46D8-A2D7-384CDF7B4068}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FC231731-B76C-445C-B46A-4FF31F3A0653}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitReaderWriter.UnitTests", "BitReaderWriter.UnitTests\BitReaderWriter.UnitTests.csproj", "{2C9FF8E1-39B5-4D44-AF55-909FCA2EF553}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,16 +15,9 @@ Global
 		{979668CF-3F73-46D8-A2D7-384CDF7B4068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{979668CF-3F73-46D8-A2D7-384CDF7B4068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{979668CF-3F73-46D8-A2D7-384CDF7B4068}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C9FF8E1-39B5-4D44-AF55-909FCA2EF553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C9FF8E1-39B5-4D44-AF55-909FCA2EF553}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C9FF8E1-39B5-4D44-AF55-909FCA2EF553}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C9FF8E1-39B5-4D44-AF55-909FCA2EF553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{2C9FF8E1-39B5-4D44-AF55-909FCA2EF553} = {FC231731-B76C-445C-B46A-4FF31F3A0653}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9586CF6B-9D3D-42BA-9D47-B90BBF8B475C}
